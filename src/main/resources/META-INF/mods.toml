@@ -1,0 +1,27 @@
+loaderVersion="[31,)"
+issueTrackerURL="https://github.com/Archaic-Quest/ArchaicQuest/issues"
+[[mods]]
+modId="archaicquest"
+version="${file.jarVersion}"
+displayName="ArchaicQuest"
+# updateJSONURL="http://myurl.me/"
+# displayURL="http://example.com/"
+# logoFile="archaicquest.png"
+credits="KUKGIROBYGGET for building structures, and HaydnBladE for some textures"
+authors="ObsidianCore, Adam, MaroonShaded, eciV"
+description='''
+This is a mod that adds cultural artifacts from warriors of ancient tribes.
+'''
+
+[[dependencies.archaicquest]]
+    modId="forge"
+    mandatory=true
+    versionRange="[31,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.archaicquest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
